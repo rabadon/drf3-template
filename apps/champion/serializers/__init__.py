@@ -1,0 +1,2 @@
+from champion.serializers.Champions import Champions
+from champion.serializers.ChampionsEvaluations import ChampionsEvaluations
