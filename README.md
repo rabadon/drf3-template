@@ -1,4 +1,4 @@
-# Django Rest Framework Template (for myself)
+# Django Rest Framework Template
 
 ## 概要
 Django Rest Frameworkのテンプレート。
@@ -6,6 +6,9 @@ Django Rest Frameworkのテンプレート。
 勉強用の為、それ以外にも何か実装しているかもしれない。
 
 ## 使い方
+### ローカルにクローンする
+`git clone https://github.com/rabadon/drf3-template.git`
+
 ### 必要なパッケージをインストール
 ```
 pip install pymysql
@@ -14,6 +17,7 @@ pip install djagorestframwork
 pip install djagorestframwork-jwt
 pip install django-rest-swagger
 ```
+
 
 ## 詳細
 ### 環境
