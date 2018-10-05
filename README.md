@@ -5,12 +5,12 @@ Django Rest Frameworkのテンプレート。
 サンプル内容は、LoLのチャンピオンを評価するアプリケーションを作るためのAPI。
 勉強用の為、それ以外にも何か実装しているかもしれない。
 
-## 使い方
+### 使い方
 
-### ローカルにクローンする
+#### ローカルにクローンする
 `git clone https://github.com/rabadon/drf3-template.git`
 
-### 必要なパッケージをインストール
+#### 必要なパッケージをインストール
 ```
 pip install pymysql
 pip install django
@@ -19,11 +19,11 @@ pip install djagorestframwork-jwt
 pip install django-rest-swagger
 ```
 
-### サーバーを起動
+#### サーバーを起動
 `python manage.py runserver`
 
 
-### アクセス
+#### アクセス
 http://localhost:8080/
 
 ## 詳細
