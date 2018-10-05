@@ -1,7 +1,3 @@
-#######################################
-# ローカルで実行したときの設定
-#######################################
-
 import os
 
 from .base import *
@@ -15,27 +11,27 @@ DEBUG = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_name(dev)',
-        'USER': 'db_user(dev)',
-        'PASSWORD': 'db_passworddb_user(dev)',
-        'HOST': 'db_hostdb_user(dev)',
+        'NAME': 'drf-starter-template',
+        'USER': 'test',
+        'PASSWORD': 'testdayon',
+        'HOST': 'tk2-262-40799.vs.sakura.ne.jp',
         'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
     },
-    # データベースを複数使う場合に設定 MultipleDataBase
-    'dev2': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '3306',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-        },
-    },
+    # データベースを複数使う場合に設定
+    # 'dev2': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': '',
+    #     'USER': '',
+    #     'PASSWORD': '',
+    #     'HOST': '',
+    #     'PORT': '3306',
+    #     'OPTIONS': {
+    #         'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+    #     },
+    # },
 }
 
 WSGI_APPLICATION = 'config.wsgi_dev.application'
