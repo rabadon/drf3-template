@@ -5,7 +5,7 @@ Django Rest Frameworkのテンプレート。
 サンプル内容は、LoLのチャンピオンを評価するアプリケーションを作るためのAPI。
 勉強用の為それ以外にも何か実装しているかもしれない。
 
-## 始める
+## このテンプレートでDRFを始める
 
 #### ローカルにクローン
 `git clone https://github.com/rabadon/drf3-template.git`
