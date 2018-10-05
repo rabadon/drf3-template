@@ -1,8 +1,7 @@
 # Django Rest Framework Template
 
 ## 概要
-Django Rest Frameworkのテンプレート。
-サンプル内容は、LoLのチャンピオンを評価するアプリケーションを作るためのAPI。
+Django Rest Frameworkのテンプレート。サンプル内容は、LoLのチャンピオンを評価するアプリケーションを作るためのAPI。
 勉強用の為それ以外にも何か実装しているかもしれない。
 
 ## このテンプレートでDRFを始める
