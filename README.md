@@ -18,12 +18,24 @@ pip install djagorestframwork-jwt
 pip install django-rest-swagger
 ```
 
+### サーバーを起動
+`python manage.py runserver`
+
+
+### アクセス
+http://localhost:8080/
 
 ## 詳細
+### 実装されている機能やテンプレートの内容
+- JWT認証
+- APIテスト(Swagger)
+- 大規模アプリケーションに対応できるディレクトリ構成
+
+
 ### 環境
-1. dev ローカルで実行
-2. test 本番のテストで実行
-3. prod 本番で実行
+- dev: ローカルで実行
+- test: 本番のテストで実行
+- prod: 本番で実行
 
 ### 標準から変更したディレクトリ構成
 ### 主要ファイルの詳細
